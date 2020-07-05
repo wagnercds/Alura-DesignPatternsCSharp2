@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeSingleton", "FacadeSingleton\FacadeSingleton.csproj", "{6E64591E-081E-44D2-A67F-005CACFB52E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{6DF47369-2C10-43E6-9370-F01D3E9D7870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{6DF47369-2C10-43E6-9370-F01D3E9D7870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeight", "FlyWeight\FlyWeight.csproj", "{99ECEBEA-86C6-4968-ABE7-DFEDA664BF5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyWeight", "FlyWeight\FlyWeight.csproj", "{99ECEBEA-86C6-4968-ABE7-DFEDA664BF5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{04AA2B79-9EAC-42BB-B873-BB0863EA9245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{99ECEBEA-86C6-4968-ABE7-DFEDA664BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99ECEBEA-86C6-4968-ABE7-DFEDA664BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99ECEBEA-86C6-4968-ABE7-DFEDA664BF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AA2B79-9EAC-42BB-B873-BB0863EA9245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AA2B79-9EAC-42BB-B873-BB0863EA9245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AA2B79-9EAC-42BB-B873-BB0863EA9245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AA2B79-9EAC-42BB-B873-BB0863EA9245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
